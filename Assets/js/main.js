@@ -11,9 +11,7 @@ const WEDDING_START   = '2026-11-13T08:36:00+05:30'; // Poruwa ceremony, Sri Lan
 // Add or remove file names freely; any file that is missing is skipped.
 const MUSIC = {
   en: ['Assets/music/En_bg_music.mp3'],
-  si: ['Assets/music/Si_bg_music.mp3',
-       'Assets/music/Si_bg_music_2.mp3',
-       'Assets/music/Si_bg_music_3.mp3']
+  si: ['Assets/music/Si_bg_music.mp3']
 };
 const CARD = {
   en: 'Assets/images/En_invcard.png',
@@ -73,7 +71,6 @@ const T = {
     waNo:  (n)    => `Hello! This is ${n}.\nRSVP for Chathurika & Thilanka's wedding:\nRegretfully declines.`,
     footNote: 'With love and gratitude, we look forward to celebrating with you.',
     musicAria: 'Play or pause background music',
-    musicNext: 'Next song',
     calTitle: "Chathurika & Thilanka's Wedding",
     calDesc: 'Poruwa ceremony at 8.36 AM. Reception 8.00 AM to 4.00 PM.'
   },
@@ -128,7 +125,6 @@ const T = {
     waNo:  (n)    => `ආයුබෝවන්! මම ${n}.\nචතුරිකා සහ තිලංකගේ මංගල්‍යය සඳහා මගේ පිළිතුර:\nකණගාටුවෙන් සහභාගී විය නොහැක.`,
     footNote: 'ආදරයෙන් සහ කෘතඥතාවෙන්, ඔබ සමඟ මෙම සතුට බෙදා ගැනීමට අපි බලා සිටිමු.',
     musicAria: 'පසුබිම් සංගීතය ධාවනය කරන්න හෝ නවත්වන්න',
-    musicNext: 'ඊළඟ ගීතය',
     calTitle: 'චතුරිකා සහ තිලංකගේ විවාහ මංගල්‍යය',
     calDesc: 'පෝරුව චාරිත්‍රය පෙ.ව. 8.36 ට. මංගල සත්කාරය පෙ.ව. 8.00 සිට ප.ව. 4.00 දක්වා.'
   }
